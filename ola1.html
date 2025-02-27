@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Everion</title>
+</head>
+<body>
+    <h1 id="texto">Trocando cor do texto</h1>
+    <button onclick="trocar()">texto</button>
+    <button onclick="cor()">cor</button>
+    <button onclick="trocar2()">trocar</button>
+    <script>
+    function trocar(){
+            document.getElementById("texto").innerHTML = "Novo texto";
+            document.getElementById("texto").style.color = "blue";
+        }
+        function cor(){
+            document.getElementById("texto").style.color = "red";
+        }
+        function trocar2(){
+            document.getElementById("texto");
+            let x = document.getElementById("texto");
+            if(x.innerHTML == "trocando a cor do texto"){
+                document.getElementById('texto' .innerHTML)= "novo texto";
+            }
+            else{
+                document.getElementById('texto').innerHTML="trocando a cor do teto";
+            }
+        }
+       
+    </script>
+</body>
+</html>
